@@ -1,0 +1,218 @@
+:root {
+  --main-color: #00985b;
+  --main-font: "Poppins", sans-serif;
+  --merriweather: "Merriweather", serif;
+  --gradgb: linear-gradient(to bottom right, #00985b 0%, #003300 118%);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: var(--main-font);
+}
+body {
+  background: #eefff0;
+}
+.wrapper {
+  width: 1920px;
+  margin: 0;
+  padding: 0;
+}
+
+.head {
+  background: var(--gradgb);
+  opacity: 30;
+  width: 100%;
+  height: 100vh;
+}
+.navbar {
+  padding-top: 1%;
+  overflow: hidden;
+  padding-left: 10%;
+  align-content: center;
+  /* background: lightblue; */
+}
+.navbar img {
+  width: 57px;
+  height: 52px;
+  float: left;
+  margin: 5px;
+  margin-right: 5%;
+}
+.navbar a {
+  float: left;
+  color: white;
+  font-weight: 700;
+  font-family: var(--main-font);
+  padding: 2px;
+  margin: 5px;
+  margin-right: 20px;
+  text-decoration: none;
+  font-size: 20px;
+}
+.navbar .nav-right {
+  padding-right: 10%;
+  float: right;
+}
+.navbar a:hover {
+  background: white;
+  color: #003300;
+  transition: 0.6s;
+  border-radius: 5px;
+}
+.navbar .nav-right a:hover {
+  background: linear-gradient(to bottom right, #00ff00 0%, #3399ff 100%);
+  color: blue;
+  transition: 0.6s;
+  border-radius: 5px;
+}
+.header {
+  padding: 0;
+  width: 100%;
+  height: 1024px;
+  /* background: rebeccapurple; */
+  /* background: lightblue; */
+}
+.header .aksen {
+  position: static;
+  width: 100%;
+  height: 100%;
+  background: transparent;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+.header .aksen .img-aksen {
+  float: left;
+  /* background: lightcyan; */
+  background-size: cover;
+  width: 500px;
+  height: 92vh;
+}
+.header .aksen .hero {
+  /* background: lightcoral; */
+  width: 1184px;
+  height: 92vh;
+  float: right;
+  position: relative;
+  background-repeat: no-repeat;
+  /* background-size: cover; */
+}
+.header .header-title {
+  position: absolute;
+  background: transparent;
+  width: 596px;
+  height: 152;
+  top: 172px;
+  left: 54px;
+}
+.header .header-title h3 {
+  color: white;
+  font-size: 52px;
+  letter-spacing: 2px;
+  margin-bottom: 5px;
+}
+.header .header-title p {
+  color: white;
+  font-size: 22px;
+  letter-spacing: 2px;
+}
+.layanan {
+  width: 1366px;
+  height: 786px;
+  margin-bottom: 300px;
+}
+.layanan .judul-layanan {
+  margin-left: 58%;
+  margin-top: 50px;
+  color: var(--main-color);
+  font-size: 50px;
+}
+.layanan span {
+  margin-left: 55%;
+  margin-top: 50px;
+  color: black;
+  font-size: 22px;
+}
+.layanan .container {
+  /* border: 2px solid black; */
+  width: 1500px;
+  height: auto;
+  display: inline-block;
+  margin-left: 20%;
+  margin-top: 10%;
+  margin-bottom: 30px;
+}
+
+.layanan .container .box-layanan {
+  /* background: #3399ff; */
+  margin: 10px;
+  width: 480px;
+  height: 365px;
+  float: left;
+  border-radius: 10px;
+  align-content: center;
+  /* text-align: center; */
+}
+.layanan .container .box-layanan:hover {
+  background: var(--gradgb);
+  transition: 0.5s;
+  color: white;
+  box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.607);
+}
+.layanan .container .box-layanan .logo-layanan {
+  border-radius: 50px;
+  margin: 10px;
+  width: 97px;
+  height: 95px;
+  background: var(--main-color);
+  position: relative;
+  top: 10px;
+  left: 185px;
+}
+.layanan .container .box-layanan:hover .logo-layanan {
+  background: white;
+  transition: 0.5s;
+}
+.layanan .container .box-layanan .logo-layanan img {
+  width: 55px;
+  height: 55px;
+  margin: 0;
+  position: relative;
+  left: 20px;
+  top: 15px;
+}
+.layanan .container .box-layanan .title-layanan {
+  text-align: center;
+  margin: 5px;
+  text-decoration: none;
+}
+.layanan .container .box-layanan .title-layanan h3 {
+  color: var(--main-color);
+  text-align: center;
+  font-size: 20px;
+  margin-bottom: 30px;
+  /* background: #3399ff; */
+}
+.layanan .container .box-layanan:hover .title-layanan h3 {
+  color: white;
+  transition: 0.5s;
+}
+.layanan .container .box-layanan .title-layanan p {
+  font-family: var(--main-font);
+  font-size: medium;
+  text-align: center;
+  font-size: 20px;
+  margin-bottom: 30px;
+  /* background: #3399ff; */
+  text-align: center;
+}
+.temukan {
+  width: 1920px;
+  height: 1080px;
+  margin: 0;
+  padding: 10px;
+  background-image: url(asset/Img-search.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
